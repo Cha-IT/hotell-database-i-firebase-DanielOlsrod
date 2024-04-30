@@ -10,9 +10,8 @@
     background-color: whitesmoke;
     border-radius: 10px;
     border-color: black;
-    border: 10px;
+    border-width: 2px;
     margin-bottom: 15px;
-    box-shadow: 10px;
 }
 
 .filterDiv {
@@ -35,4 +34,10 @@
 }
 .apply-btn:hover{
     background-color:  #1f85c5;
+}
+select{
+    border-radius: 10px;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
 }
