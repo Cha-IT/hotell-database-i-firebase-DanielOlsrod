@@ -3,10 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div id="filter" class="filterDiv">
+
+        <div class="filterElement">
+            <label for="floor">Choose a floor</label>
+            <select id="floor" name= "floor">
+                <option value="none">All</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+
+        <div class="filterElement">
+            <label for="beds">Choose a number of beds</label>
+            <select id="beds" name= "beds">
+                <option value="none">All</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        
+        <div class="filterElement">
+            <label for="type">Choose a type of room</label>
+            <select id="type" name= "type">
+                <option value="none">All</option>
+                <option value="1">Room</option>
+                <option value="2">Suite</option>
+            </select>
+        </div>
+
+        <div ><button class="apply-btn">Apply</button></div>
+    </div>
+
+    <div id="roomsavalible" class="element-wrapper">
+        <div class="element">
+            <h1>
+
+            </h1>
+        </div>
+
+        <div class="element">
+            <h1>
+
+            </h1>
+        </div>
+    </div>
+
 
     <script type="module" src="./JS/script.js"></script>
 

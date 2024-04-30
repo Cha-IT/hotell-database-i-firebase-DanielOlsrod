@@ -1,0 +1,38 @@
+
+
+.element-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.element {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border-color: black;
+    border: 10px;
+    margin-bottom: 15px;
+    box-shadow: 10px;
+}
+
+.filterDiv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.filterElement {
+    margin-right: 20px;
+}
+
+.apply-btn{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px;
+    background-color:  #24a0ed;
+    border: none;
+}
+.apply-btn:hover{
+    background-color:  #1f85c5;
+}
